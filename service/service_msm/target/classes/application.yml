@@ -1,0 +1,19 @@
+spring:
+  profiles:
+    active: dev
+
+aliyun:
+  vod:
+    file:
+      keyid: LTAI5t7gVS2459SC7diDbZ8V
+      keysecret: 5vCozSOhLqA8uAOjLJDj0K5YcV86DE
+
+tencent:
+  msg:
+    file:
+      keyid: AKIDLWQ5UcU5QVJq77qIUP2OTHo44oIVS8Xf
+      keysecret: sVsbATYNyKRIuGMDo9F5fy1qPjoeEZeT
+      appid: 1400599060
+      appkey: e49c389157856c9afe3c073308fd5ac0
+      signname: GenerProgram
+      templateid: 1209788

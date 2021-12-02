@@ -1,0 +1,24 @@
+server:
+  port: 8001
+
+spring:
+  application:
+    name: service-edu
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+      config:
+        server-addr: localhost:8848
+        file-extension: yaml
+        namespace: e7065463-ea50-462d-9abe-395df40a1ae0
+        group: DEFAULT_GROUP
+        ext-config:
+          - data-id: jackson.yaml
+            refresh: true
+          - data-id: feign.yaml
+            refresh: true
+          - data-id: datasource.yaml
+            refresh: true
+          - data-id: redis.yaml
+            refresh: true
