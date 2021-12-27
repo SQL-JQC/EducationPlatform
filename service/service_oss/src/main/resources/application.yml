@@ -10,11 +10,3 @@ spring:
     nacos:
       discovery:
         server-addr: localhost:8848
-
-aliyun:
-  oss:
-    file:
-      endpoint: oss-cn-shenzhen.aliyuncs.com
-      keyid: LTAI5t7gVS2459SC7diDbZ8V
-      keysecret: 5vCozSOhLqA8uAOjLJDj0K5YcV86DE
-      bucketname: malloc-func
