@@ -14,9 +14,3 @@ spring:
     nacos:
       discovery:
         server-addr: localhost:8848
-
-aliyun:
-  vod:
-    file:
-      keyid: LTAI5t7gVS2459SC7diDbZ8V
-      keysecret: 5vCozSOhLqA8uAOjLJDj0K5YcV86DE
